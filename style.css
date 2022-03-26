@@ -1,32 +1,19 @@
 @font-face { 
     font-family: visitor1;
     src: url("fonts/visitor1.ttf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    color: white;
  }
 
 h1 {
-    font-family: visitor1;
-    src: url("fonts/visitor1.ttf") format('truetype');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
+    text-align: center;
     color: white;
 }
 
 p {
-    font-family: visitor1;
-    src: url("fonts/visitor1.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
-    color: white;
-}
-
-h1 {
-    font-family: visitor1;
-    src: url("fonts/visitor1.ttf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
+    text-align: center;
     color: white;
 }
 
