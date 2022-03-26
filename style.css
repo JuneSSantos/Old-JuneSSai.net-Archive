@@ -3,6 +3,13 @@
     src: url("fonts/visitor1.ttf") format('truetype');
  }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 h1 {
     font-family: visitor1;
     font-weight: normal;
