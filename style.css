@@ -19,10 +19,10 @@ img {
 
 h1 {
     font-family: visitor1;
-    font-weight: bold;
-    font-style: bold;
+    font-weight: normal;
+    font-style: normal;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
 }
 
@@ -30,7 +30,7 @@ p {
     font-family: visitor1;
     font-weight: normal;
     text-align: center;
-    font-size: 23px;
+    font-size: 22px;
     color: white;
 }
 
