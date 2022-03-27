@@ -36,6 +36,10 @@ p {
     color: white;
 }
 
+.pfp {
+     text-align: left;
+}
+
 body {
   background-image: url("../images/sitebackground02.png");
   background-size: cover;
