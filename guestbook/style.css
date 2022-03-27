@@ -37,15 +37,15 @@ p {
 }
 
 .pfp {
-     text-align: left;
+     object-position: left;
 }
 
 .guestmessage {
-    text-align: right;
+    text-align: middle;
 }
 
 .guestname {
-    text-align: right;
+    text-align: middle;
 }
 
 body {
