@@ -37,6 +37,10 @@ p {
 }
 
 .socialmedia {
+    text-align: center;
+    }
+
+.socialmediabutton {
     float: center;
     }
 
