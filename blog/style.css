@@ -9,6 +9,14 @@ img {
   margin-right: auto;
 }
 
+.blue {
+    display:inline-block;
+}
+
+.green {
+    display:inline-block;
+}
+
 h1 {
     font-family: visitor1;
     font-weight: normal;
