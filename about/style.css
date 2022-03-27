@@ -36,6 +36,10 @@ p {
     color: white;
 }
 
+.socialmedia {
+    float: center;
+    }
+
 body {
   background-image: url("../images/sitebackground03.png");
   background-size: cover;
