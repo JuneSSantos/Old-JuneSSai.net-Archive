@@ -10,7 +10,11 @@ img {
 }
 
 .buttoncontainer {
-    display:inline-block;
+    text-align: center;
+    }
+
+.button {
+    display: inline-block
     }
 
 h1 {
