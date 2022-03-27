@@ -30,7 +30,7 @@ h1 {
     font-weight: bold;
     font-style: bold;
     text-align: center;
-    font-size: 220%;
+    font-size: 8vw;
     line-height: 0.2;
     color: white;
 }
@@ -39,7 +39,7 @@ p {
     font-family: visitor1;
     font-weight: normal;
     text-align: center;
-    font-size: 145%;
+    font-size: 4vw;
     line-height: 0.2;
     color: white;
 }
