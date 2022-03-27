@@ -4,7 +4,8 @@
  }
 
 .logo {
-    display: inline-block
+   text-align: center;
+   display: inline-block;
 }
 
 img {
@@ -18,7 +19,7 @@ img {
     }
 
 .button {
-    display: inline-block
+    display: inline-block;
     }
 
 h1 {
