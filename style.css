@@ -11,12 +11,7 @@ img {
 
 .blue {
     display:inline-block;
-    text-align: middle;
-}
-
-.green {
-    display:inline-block;
-    text-align: middle;
+    text-align: center;
 }
 
 h1 {
