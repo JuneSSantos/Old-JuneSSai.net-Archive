@@ -40,6 +40,14 @@ p {
      text-align: left;
 }
 
+.guestmessage {
+    text-align: right;
+}
+
+.guestname {
+    text-align: right;
+}
+
 body {
   background-image: url("../images/sitebackground02.png");
   background-size: cover;
