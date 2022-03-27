@@ -1,6 +1,6 @@
 @font-face { 
     font-family: visitor1;
-    src: url("fonts/visitor1.ttf") format('truetype');
+    src: url("../fonts/visitor1.ttf") format('truetype');
  }
 
 img {
@@ -37,6 +37,6 @@ p {
 }
 
 body {
-  background-image: url('images/sitebackground02.png');
+  background-image: url("../images/sitebackground02.png");
   background-size: cover;
   }
