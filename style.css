@@ -43,3 +43,11 @@ p {
     line-height: 0.2;
     color: white;
 }
+
+.guestmessage {
+    text-align: left;
+}
+
+.guestname {
+    text-align: left;
+}
