@@ -1,6 +1,6 @@
 @font-face { 
-    font-family: "Petscop";
-    src: url("fonts/Petscop.ttf") format('truetype');
+    font-family: "TerminusTTF";
+    src: url("fonts/TerminusTTF-4.49.1.ttf") format('truetype');
  }
 
 .logocontainer {
@@ -26,7 +26,7 @@ img {
     }
 
 h1 {
-    font-family: Petscop;
+    font-family: TerminusTTF;
     font-weight: bold;
     font-style: bold;
     text-align: center;
@@ -36,7 +36,7 @@ h1 {
 }
 
 p {
-    font-family: Petscop;
+    font-family: TerminusTTF;
     font-weight: normal;
     text-align: center;
     font-size: 1.80vw;
