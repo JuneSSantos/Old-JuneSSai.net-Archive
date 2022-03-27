@@ -4,7 +4,7 @@
  }
 
 .logo {
-   text-align: center;
+   float: center;
    display: inline-block;
 }
 
