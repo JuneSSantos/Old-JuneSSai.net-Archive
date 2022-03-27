@@ -3,6 +3,14 @@
     src: url("../fonts/visitor1.ttf") format('truetype');
  }
 
+.logocontainer {
+   text-align: center;
+}
+
+.logo {
+   display: inline-block;
+}
+
 img {
   display: inline-block;
   margin-left: auto;
