@@ -19,9 +19,11 @@ img {
 
 h1 {
     font-family: visitor1;
-    font-weight: normal;
+    font-weight: bold;
     font-style: bold;
     text-align: center;
+    font-size: 220%;
+    line-height: 0.2;
     color: white;
 }
 
@@ -29,6 +31,8 @@ p {
     font-family: visitor1;
     font-weight: normal;
     text-align: center;
+    font-size: 145%;
+    line-height: 0.2;
     color: white;
 }
 
