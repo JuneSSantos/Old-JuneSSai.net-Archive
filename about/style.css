@@ -47,4 +47,5 @@ p {
 body {
   background-image: url("../images/sitebackground03.png");
   background-size: cover;
+  background-attachment: fixed;
   }
