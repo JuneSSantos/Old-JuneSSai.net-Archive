@@ -1,6 +1,5 @@
 @font-face { 
     font-family: visitor1;
-    text-size-adjust: auto;
     src: url("../fonts/visitor1.ttf") format('truetype');
  }
 
@@ -25,6 +24,7 @@ h1 {
     text-align: center;
     font-size: 220%;
     line-height: 0.2;
+    text-size-adjust: auto;
     color: white;
 }
 
@@ -34,6 +34,7 @@ p {
     text-align: center;
     font-size: 145%;
     line-height: 0.2;
+    text-size-adjust: auto;
     color: white;
 }
 
