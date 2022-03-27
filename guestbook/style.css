@@ -41,7 +41,7 @@ p {
 }
 
 .guestname {
-    float: right;
+    float: center;
     font-style: italic;
     font-weight: bold;
 }
