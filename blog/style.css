@@ -9,13 +9,13 @@ img {
   margin-right: auto;
 }
 
-.blue {
-    display:inline-block;
-}
+.buttoncontainer {
+    text-align: center;
+    }
 
-.green {
-    display:inline-block;
-}
+.button {
+    display: inline-block
+    }
 
 h1 {
     font-family: visitor1;
