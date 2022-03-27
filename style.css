@@ -39,4 +39,5 @@ p {
 body {
   background-image: url("images/sitebackground01.png");
   background-size: cover;
+  background-attachment: fixed;
   }
