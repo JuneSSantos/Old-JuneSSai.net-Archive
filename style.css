@@ -1,6 +1,6 @@
 @font-face { 
-    font-family: visitor1;
-    src: url("fonts/visitor1.ttf") format('truetype');
+    font-family: TerminusTTF-4.49.1;
+    src: url("fonts/TerminusTTF-4.49.1.ttf") format('truetype');
  }
 
 .logocontainer {
