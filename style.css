@@ -23,6 +23,7 @@ h1 {
     font-style: bold;
     text-align: center;
     font-size: 210%;
+    line-height: 0.8;
     color: white;
 }
 
@@ -31,6 +32,7 @@ p {
     font-weight: normal;
     text-align: center;
     font-size: 145%;
+    line-height: 0.8;
     color: white;
 }
 
