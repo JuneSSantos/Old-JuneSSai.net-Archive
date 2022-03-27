@@ -3,8 +3,11 @@
     src: url("fonts/visitor1.ttf") format('truetype');
  }
 
+.logocontainer {
+    text-align: center;
+}
+
 .logo {
-   float: center;
    display: inline-block;
 }
 
