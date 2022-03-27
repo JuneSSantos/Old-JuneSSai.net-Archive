@@ -47,7 +47,8 @@ p {
 }
 
 .guestname {
-    text-align: right;
+    text-align: left;
+    margin-right:20px;
     font-style: italic;
     font-weight: bold;
 }
