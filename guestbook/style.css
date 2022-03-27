@@ -43,11 +43,12 @@ p {
 }
 
 .guestmessage {
-    text-align: center;
+    text-align: left;
 }
 
 .guestname {
-    float: center;
+    text-align: left;
+    margin-right:20px;
     font-style: italic;
     font-weight: bold;
 }
