@@ -7,6 +7,57 @@
   background-size: cover;
   background-attachment: fixed;
   }
+
+.terminalbox {
+	background-color: black;
+	border: 1px solid lime;
+	padding: 10px;
+	width: 1100px;
+	height: 40px;
+	margin: auto;
+}
+	
+.terminalname1 {
+	color: LimeGreen;
+}
+
+.terminalname2 {
+	 color: #FFBC4F;
+ }
+
+.terminalbracket1 {
+	color: red;
+}
+
+.terminalbracket2 {
+	 color: purple;
+}
+
+.hyperlink {
+	 text-decoration: none;
+}
+
+.hyperlink:link, .hyperlink:visited {
+	color: lime;
+}
+
+.hyperlink:hover {
+	 text-decoration: underline;
+}
+
+.terminalbox2 {
+	background-color: black;
+	border: 1px solid white;
+	padding: 10px;
+	width: 1100px;
+	height: 20px;
+	margin: auto;
+}
+
+.terminaltext {
+	position: relative; top: -16px;
+}
+
  </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../style.css"> 
@@ -30,15 +81,20 @@
   <a href="https://junessai.github.io/JuneSSai.net/about/about.html">
     <img src="../images/buttons/aboutbutton.png" class="button"></a>
     </div>
-  
+
+<div>
 <h1>Blogs Sections</h1>
   <p>This is where I Ramble about mostly superficial garbage</p>
   <p>But maybe something will catch your attention</p>
-  <p>So select a post and give it a read!</p>
+  <p>So select a post in the terminal and give it a read!</p>
 <br>
-  <p>...</p>
-<br>
-  <p>When I actually get around to add posts.</p>
+<div class="terminalbox2">
+	<p class="terminaltext">Terminal - junessai@junessai-pc:~</p>
+</div>
+
+<div class="terminalbox">
+	<p class="terminaltext"><span class="terminalname1">junessai-pc</span>:<span class="terminalbracket1">[</span><span class="terminalname2">junessai</span><span class="terminalbracket1">]</span></span>:<span class="terminalbracket2">~</span><span class="terminalname2">$</span> <a href="https://junessai.github.io/JuneSSai.net/blog/pages/Early2000sInternet.html" class="hyperlink">./Internet_In_The_Early_2000s.html</a></p>
+</div>
   
   </body>
 </html>
