@@ -44,3 +44,15 @@ p {
     line-height: 0.2;
     color: white;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: lime;
+}
+
+a:hover {
+   text-decoration: underline;
+}
