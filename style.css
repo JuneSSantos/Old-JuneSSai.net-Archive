@@ -1,7 +1,12 @@
 @font-face { 
     font-family: "TerminusTTF";
-    src: url("fonts/TerminusTTF-4.49.1.ttf") format('truetype');
- }
+    src: url("fonts/TerminusTTF-4.49.1.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "TerminusTTF-Bold";
+    src: url("fonts/TerminusTTF-Bold-4.49.1.ttf") format("truetype")
+}
 
 .logocontainer {
    text-align: center;
@@ -29,7 +34,14 @@ img {
 h1 {
     font-family: TerminusTTF;
     font-weight: bold;
-    font-style: bold;
+    text-align: center;
+    font-size: 2.50vw;
+    line-height: 0.2;
+    color: white;
+}
+
+h2 {
+    font-family: TerminusTTF-Bold;
     text-align: center;
     font-size: 2.50vw;
     line-height: 0.2;
