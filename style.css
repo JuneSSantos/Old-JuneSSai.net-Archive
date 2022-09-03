@@ -36,6 +36,11 @@ img {
     box-shadow: 0 0 5px white;
     filter: brightness(125%);
     }
+    
+.button:active {
+    box-shadow: 0 0 10px white;
+    filter: brightness(155%);
+    }
 
 h1 {
     font-family: TerminusTTF;
