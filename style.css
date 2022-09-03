@@ -32,6 +32,11 @@ img {
     display: inline-block;
     }
 
+.button:hover {
+    box-shadow: 0 0 5px white;
+    filter: brightness(125%);
+    }
+
 h1 {
     font-family: TerminusTTF;
     font-weight: bold;
