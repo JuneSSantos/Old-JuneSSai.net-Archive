@@ -1,81 +1,81 @@
 @font-face { 
     font-family: "TerminusTTF";
     src: url("fonts/TerminusTTF-4.49.1.ttf") format("truetype")
-}
+   }
 
 @font-face {
     font-family: "TerminusTTF-Bold";
     src: url("fonts/TerminusTTF-Bold-4.49.1.ttf") format("truetype")
-}
+   }
 
 .logocontainer {
-   text-align: center;
-}
+    text-align: center;
+   }
 
 .logo {
-   display: inline-block;
-   margin-bottom: 0.30%;
-   align: center;
-}
+    display: inline-block;
+    margin-bottom: 0.30%;
+    align: center;
+   }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
 
 .buttoncontainer {
     text-align: center;
-    }
+   }
 
 .button {
     display: inline-block;
-    }
+   }
 
 .button:hover {
     box-shadow: 0 0 5px white;
     filter: brightness(125%);
-    }
+   }
     
 .button:active {
     box-shadow: 0 0 10px white;
     filter: brightness(155%);
-    }
+   }
 
 h1 {
-    font-family: TerminusTTF;
+    font-family: TerminusTTF-Bold;
     font-weight: bold;
     text-align: center;
-    font-size: 2.50vw;
+    font-size: 2.30vw;
     line-height: 0.2;
     color: white;
-}
+   }
 
 h2 {
     font-family: TerminusTTF-Bold;
     text-align: center;
-    font-size: 2.50vw;
+    font-size: 2.00vw;
     line-height: 0.2;
     color: white;
-}
+   }
 
 p {
     font-family: TerminusTTF;
     font-weight: normal;
     text-align: center;
-    font-size: 1.80vw;
+    font-size: 1.60vw;
     line-height: 0.2;
     color: white;
-}
+   }
 
 a {
     text-decoration: none;
-}
+   }
 
 a:link, a:visited {
     color: lime;
-}
+   }
 
 a:hover {
-   text-decoration: underline;
-}
+    text-decoration: underline;
+   }
