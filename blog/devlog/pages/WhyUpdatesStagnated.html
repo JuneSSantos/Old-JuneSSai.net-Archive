@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body {
+  background-image: url("../../../images/ssbackgrounds/sitebackground11.png");
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+ .headercontainer {
+  display: flex;
+  text-align: left;
+  }
+
+  div.wrapper {
+  flex: 1;
+  }
+
+ .headerpfp {
+  float: left;
+  margin-left: 4.50%;
+  margin-right: 1%;
+  margin-top: 0.80%;
+  }
+ 
+ .signature {
+  text-align: right;
+  font-style: italic;
+  margin-right: 4.50%;
+  }
+ </style>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="June S. Sai.net: Why Updates Stagnated" />
+<meta property="og:url" content="https://junessai.net/" />
+<meta property="og:image" content="https://junessai.net/images/badasslogo.png" />
+<meta property="og:description" content="Shit happens." />
+<title>Why Updates Stagnated</title>
+<link rel="stylesheet" href="../../../style.css">
+<link rel="icon" type="image/png" href="../../../images/favicon.png">
+</head>
+
+<body>
+<div class="logocontainer">
+ <a href="../../../index.html">
+ <img src="../../../images/badasslogo.png" class="logo"></a>
+ </div>
+
+<div id="buttoncontainer" class="buttoncontainer">
+</div>
+
+<script src="../../../js/menu4.js"></script>
+
+<div class="headercontainer">
+<div class="wrapper">
+<img src="../../../blog/images/PFPs/JuneSSaiPFP.png" class="headerpfp">
+<h1 style="text-align:left;">Why Updates Stagnated</h1>
+<p style="text-align:left;">Posted on September 20, 2022, 07:00</p>
+<p style="text-align:left;">Last updated on September 20, 2022, 07:00</p>
+<p style="text-align:left;">Written By June S. Sai</p>
+</div>
+</div>
+<br>
+<div>
+<p>Holy shit, I'm finally doing one of these again, ain't I?</p>
+<p>And unexpectedly, it's a devlog of all things</p>
+<p>But why that?</p>
+<br>
+<p>Well, as you can see, after updating a lot of the sections, mostly the older ones, like the</p>
+<p>Blog and Guestbook section, which received a massive design and visual overhaul, the updates</p>
+<p>Kinda stopped there, and now the site, although not abandoned, isn't seeing any real new content</p>
+<p>besides the Daily Song and Message being updated regularly</p>
+<br>
+<p>Well, I'll try to keep it brief, but it's mostly two reasons</p>
+<br>
+<p>First of all, do you remember how the first Blog and Guestbook Section looked like?</p>
+<a href="images/WhyUpdatesStagnated/oldblog.png" target="_blank">
+	<img src="images/WhyUpdatesStagnated/oldblog.png" width="1000"></a>
+<br>
+<a href="images/WhyUpdatesStagnated/oldguestbook.png" target="_blank">
+	<img src="images/WhyUpdatesStagnated/oldguestbook.png" width="1000"></a>
+<br>
+<p>Well, I do, and god, did it look fucking terrible</p>
+<p>It didn't work well visually, and neither it did technically</p>
+<br>
+<p>Let's start with the Blog Section, which was mainly inspired by the Artix Linux Terminal</p>
+<br>
+<p>Although I did like the idea, in praticallity, it wasn't very effective</p>
+<p>First of all; there was a lot of information to take in, and most of it wasn't really that important</p>
+<p>to begin with, like the size of the file, my username, and that whole -rw-r--r-- thing, they didn't</p>
+<p>really add anything of importance to that section, and in many ways, it was too cluttered and un-</p>
+<p>necessarily confusing and de-organized, specially for newer users, so a while ago, I decided that</p>
+<p>the Blog Section would get reworked, but I went through multiple ideas until I reached I ultimately</p>
+<p>decided on the current design</p>
+<br>
+<a href="images/WhyUpdatesStagnated/netricsahud.png" target="_blank">
+	<img src="images/WhyUpdatesStagnated/netricsahud.png"></a>
+<br>
+<p>The first thing that came into my mind at the time, was the Serious Sam's Netricsa HUD, which all</p>
+<p>things considered, fitted perfectly well with the site, specially since during that time, the site</p>
+<p>and it's theme was taking heavy inspiration from Serious Sam, from backgrounds, to buttons, and even</p>
+<p>the old logo, which went from a Dark Red to a orange-ish yellow to fit with the desert backgrounds</p>
+<p>but it was also a little too simple for my taste, and I wanted something with flair, something</p>
+<p>more unique, that would allow me to put more personality into each post, and recently, I've been</p>
+<p>revisiting the Something Awful site, and then I saw how they structured their posts, and although</p>
+<p>it wasn't exactly what I wanted, with a bit of tinkering, I got my blueprint for the redesign</p>
+<br>
+<a href="images/WhyUpdatesStagnated/somethingawfulposts.png" target="_blank">
+	<img src="images/WhyUpdatesStagnated/somethingawfulposts.png"></a>
+<br>
+<p>It was incredibly simple, but it didn't look bad, and it worked pretty well too, you got a title</p>
+<p>description, post date and the name of the author, every crucial information is there, and easily</p>
+<p>found with no further complication</p>
+<br>
+<p>But I didn't want to just copy Something Awful, I wanted to give it my own flair, so I quickly</p>
+<p>thought of adding a background for each post to make every post more distinct from each other</p>
+<p>and thus, work started, and the problems started to appear with it</p>
+<br>
+<p>Working with the divs and flex divs was a fucking nightmare, specially since the line-height made so</p>
+<p>fonts would clip in case they had an automatic line break, instead of me manually adding one, but that</p>
+<p>wasn't even the worst part, the worst part was making everything staying at the same size, but the way</p>
+<p>I was doing it wasn't really helping me, and that's because I was changing the width from the main div</p>
+<p>instead of the wrapper, so although things would look ok with a single element, the moment I added</p>
+<p>another one, things would suddenly break, and after tinkering and fussing around with it through my</p>
+<p>whole afternoon and night, I decided to ask for solutions on stackoverflow, and turns out, instead of</p>
+<p>using the width option on the main div, I should have been using max-width option on the wrapper instead</p>
+<br>
+<p>So that solved the issue, but that took me a lot of headbreaking, and experimentation, and even after</p>
+<p>I solved the width problem, I still had to make everything else look right, which took me even more time</p>
+<p>because positioning everything, and making the CSS work properly for each individual post wrapper was a</p>
+<p>fucking nightmare to implement, and that's mostly due to the fact I'm not accostumed with messing with</p>
+<p>divs and wrappers, so it took me a while to understand what I was doing wrong, but after a while, I got</p>
+<p>it to look the way I wanted it too, it took me a while, but ultimately, it was worth it, not only I got to</p>
+<p>organize the topics and improve the presentation of the site further, but it was also easier to navigate</p>
+<p>through the blog and find the content you were looking for</p>
+<br>
+<p>And after being done with the blog, I took a good look into the Guestbook Section, and I thought that it</p>
+<p>could also get an overhaul, and luckily for me, the work I've done on the Blog Section could be reutilized</p>
+<p>on the Guestbook Section aswell, so that didn't take me long to rework, the only real issue was getting the</p>
+<p>background positioning right, and also setting up individual border colors for every single guest comment</p>
+<p>aswell, but it was overall a very pleasing experience all things considered, specially in comparision to</p>
+<p>the trouble I went with the blog section</p>
+<br>
+<p>And well, I'm proud of how the site is looking now, it's incredibly refined, and pretty much everything</p>
+<p>is looking pretty great, and working pretty great aswell, so now, I can finally focus on adding more</p>
+<p>content to the site, and implement the new sections I've been thinking of implementing for a while now</p>
+<br>
+<p>But that's also a problem</p>
+<p>I'm really fucking tired, in two major ways</p>
+<br>
+<p>The first one is burnout</p>
+<p>After reworking these sections, and the amount of time and effort I put into it, it stressed me to no</p>
+<p>end, to the point I dread having to rework a section again, and although I do think learning something</p>
+<p>new is indeed incredibly fun, specially after you manage to hit the results you've been looking for</p>
+<p>I wasn't really either in the best headspace to break my head trying to solve any more problems than</p>
+<p>the ones I was having back then, and still am having as of now</p>
+<br>
+<p>And that's the second problem</p>
+<p>I'm stressed and saddened to no end, and that's mostly because the dread of loneliness is hitting me</p>
+<p>again with full force, because in one way, I'm glad I'm getting the chance to finally stay away from</p>
+<p>my dad and everyone else in here, since my dad is pretty much moving away after a pretty nasty fight</p>
+<p>I had with him and his awful girlfriend, and although I'm happy to have more space for me, I'm also</p>
+<p>feeling incredibly miserable due to the fact I haven't really got the chance to enjoy my time with</p>
+<p>my friends due to how tired I've been feeling, and the fact I keep thinking about the fact I'm</p>
+<p>rotting away all by myself, while most if not everyone I know is making huge strides in their lifes</p>
+<p>by either getting jobs, or getting into new relationships, while I'm mostly feeling stagnant</p>
+<p>and all by myself, specially since I can't even trust my own father anymore, so all of the ideas in</p>
+<p>my head are feeling either corrupted or souless, every concept feels tiring and uninteresting, and</p>
+<p>that's the last type of content I'd want to insert into my website, I made this site with love, and</p>
+<p>I want the content and the stuff I put into it to reflect that, hence why I haven't been posting nor</p>
+<p>adding more content to the site as of lately, I've been just taking a little bit of time to reflect</p>
+<p>on things, and where I want to take this next, but don't you worry, I won't abandon the site</p>
+<p>Not any time soon, and if possible, never, it's here to stay, either you like it or not</p>
+<br>
+<p>But that's about it</p>
+<p>I hope you all are having an amazing weekend</p>
+<p>We'll meet again soon, until then, stay safe.</p>
+<br>
+<p class="signature" style="text-decoration:underline;">Coding</p>
+<p class="signature">-June S. Sai</p>
+</div>
+<div class="buttoncontainer">  
+<a href="../../../blog/blogmain.html">
+    <img src="../../../images/buttons/blogbutton.png" class="button"></a>
+</div>
+
+<!--An empty heart won't do you no good.-->
+
+</body>
+</html>
