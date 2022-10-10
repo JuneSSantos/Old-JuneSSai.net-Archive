@@ -28,9 +28,6 @@ let headerContent = `
 
   <a href="donate/donatemain.html">
     <img src="images/buttons/donatebutton.png" class="button"></a>
-
-  <a href="servers/serversmain.html">
-    <img src="images/buttons/serversbutton.png" class="button"></a>
   
   <a href="about/about.html">
     <img src="images/buttons/aboutbutton.png" class="button"></a>
