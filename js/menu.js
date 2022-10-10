@@ -17,8 +17,8 @@ let headerContent = `
   <a href="guestbook/guestbook.html">
     <img src="images/buttons/guestbookbutton.png" class="button"></a>
 
-  <a href="servers/serversmain.html">
-    <img src="images/buttons/serversbutton.png" class="button"></a>
+  <a href="https://junessaidotnet.proboards.com/">
+    <img src="images/buttons/forumsbutton.png" class="button"></a>
     
   <a href="downloads/downloadsmain.html">
     <img src="images/buttons/downloadsbutton.png" class="button"></a>
@@ -28,6 +28,9 @@ let headerContent = `
 
   <a href="donate/donatemain.html">
     <img src="images/buttons/donatebutton.png" class="button"></a>
+
+  <a href="servers/serversmain.html">
+    <img src="images/buttons/serversbutton.png" class="button"></a>
   
   <a href="about/about.html">
     <img src="images/buttons/aboutbutton.png" class="button"></a>
