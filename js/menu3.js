@@ -17,7 +17,7 @@ let headerContent = `
   <a href="../../guestbook/guestbook.html">
     <img src="../../images/buttons/guestbookbutton.png" class="button"></a>
 
-  <a href="../../https://junessaidotnet.proboards.com/">
+  <a href="https://junessaidotnet.proboards.com/">
     <img src="../../images/buttons/forumsbutton.png" class="button"></a>
     
   <a href="../../downloads/downloadsmain.html">
