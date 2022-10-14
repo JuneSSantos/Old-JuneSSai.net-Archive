@@ -31,23 +31,32 @@
   text-align: center;
   }
 
-  .DailyMessage {
-  position: absolute;
-  right: 44.50%;
-  bottom: 5.50%;
+  .DailyStuff {
+  background-image: url('images/DailySpeech.png');
+  background-repeat: none;
+  width: 852px;
+  height: 325px;
+  margin-left: auto;
+  margin-right: auto;
   }
 
-  div.DailyMessage {
+  div.DailyStuff {
   flex: 1;
   }
 
-  .DailySong {
-  position: absolute;
-  right: 50.50%;
-  bottom: -24%;
+  .DailyMessage {
+  position: relative;
+  right: 164px;
+  top: 21px;
   }
 
-  div.DailySong {
+  .DailySong {
+  position: relative;
+  right: 166px;
+  top: 184px;
+  }
+
+  div.DailyMessage, div.DailySong {
   flex: 1;
   }
 </style>
@@ -85,7 +94,7 @@
 <br>
 </div>
 
-<div>
+<div class="DailyStuff">
 <div class="DailyMessage">
 <p style="color:black;font-size:115%;font-weight:bold;">Today's Daily Message</p>
 <p style="color:black;font-size:115%;">Don't beat yourself because of others</p>
@@ -98,8 +107,6 @@
 <p style="color:black;font-size:115%;font-weight:bold;">Today's Daily Song Recommendation</p>
 <a href="https://youtu.be/VSpgaN3wuag" target="_blank"><p style="color:green;font-size:115%;">ZAYN - Vibez</p></a>
 </div>
-
-<img src="images/DailySpeech.png">
 </div>
 
 <div class="terminalbox2">
