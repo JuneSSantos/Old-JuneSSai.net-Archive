@@ -46,7 +46,7 @@ h1 {
     font-family: TerminusTTF-Bold;
     font-weight: bold;
     text-align: center;
-    font-size: 2.30vw;
+    font-size: 185%;
     line-height: 20%;
     color: white;
    }
@@ -54,7 +54,7 @@ h1 {
 h2 {
     font-family: TerminusTTF-Bold;
     text-align: center;
-    font-size: 2.00vw;
+    font-size: 165%;
     line-height: 20%;
     color: white;
    }
@@ -63,7 +63,7 @@ p {
     font-family: TerminusTTF;
     font-weight: normal;
     text-align: center;
-    font-size: 1.60vw;
+    font-size: 130%;
     line-height: 5%;
     color: white;
    }
